@@ -75,7 +75,6 @@ const DialogContentModal = (
           fecha={fechaFin}
           name='fechaFin'
           nombreLabel='Fecha de Fin:'
-          disabled='disabled'
         />
 
         <HoraModal

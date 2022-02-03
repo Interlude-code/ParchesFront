@@ -6,6 +6,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import DialogTittleModal from './DialogTittleModal'
 import DialogContentModal from './DialogContentModal'
 import BotonAbrirCrearModal from './BotonAbrirCrearModal'
+import EliminarParcheBoton from '../EliminarParcheBoton'
+import DeshablilitarParcheBoton from '../DeshablilitarParcheBoton'
 
 const CrearParcheModal = () => {
   // useForm:
@@ -117,6 +119,10 @@ const CrearParcheModal = () => {
 
   return (
     <div>
+
+      {/* Boton para eliminar y deshabilitar */}
+      <EliminarParcheBoton />
+      <DeshablilitarParcheBoton />
 
       {/* Boton para abrir modal */}
       <BotonAbrirCrearModal handleClickOpen={handleClickOpen} />

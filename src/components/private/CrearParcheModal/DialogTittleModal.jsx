@@ -24,10 +24,11 @@ const DialogTittleModal = ({ handleInputChange, nombreParche, fotoPerfil, nombre
               onChange={handleInputChange}
               value={nombreParche}
               className='
-            w-full
-            rounded-lg
-            bg-gray-100
-            px-3'
+              w-full
+              rounded-lg
+              bg-gray-100
+              px-3'
+              maxLength={50}
               type='text'
             />
           </div>
